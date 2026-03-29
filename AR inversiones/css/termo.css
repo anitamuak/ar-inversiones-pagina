@@ -1,0 +1,69 @@
+.productoInfo img{
+    height:350px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.precio{
+    color:#d32f2f;
+    font-weight:bold;
+}
+
+.calificacion{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.btnComprar{
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btnComprar:hover{
+    background:#b71c1c;
+}
+
+.cantidad{
+    width:50px;
+    text-align:center;
+}
+
+.colores{
+    margin-top:10px;
+}
+
+.circulos{
+    display:flex;
+    gap:10px;
+}
+
+.color{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    display:inline-block;
+    border:2px solid #ccc;
+}
+
+/* COLORES */
+.rosa{ background:pink; }
+.rojo{ background:#d32f2f; }
+.azul{ background:#1976d2; }
+.verde{ background:#2e7d32; }
+
+.btnComprar{
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btnComprar:hover{
+    background:#b71c1c;
+}

@@ -1,0 +1,40 @@
+.titulo{
+    color:#b71c1c;
+    font-weight:bold;
+}
+
+/* BOTÓN WHATSAPP */
+.btnWhatsapp{
+    background:#25D366;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.btnWhatsapp:hover{
+    background:#1ebe5d;
+}
+
+/* INFO */
+.info p{
+    font-size:16px;
+    margin:5px 0;
+}
+
+html, body{
+    height:100%;
+    margin:0;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+/* EL MAIN CRECE */
+main{
+    flex:1;
+}

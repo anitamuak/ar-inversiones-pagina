@@ -1,0 +1,48 @@
+.productoInfo img{
+    width:100%;
+    height:350px;
+    object-fit:contain; /* 👈 CAMBIA ESTO */
+    background:white;   /* opcional */
+}
+.precio{
+    color:#d32f2f;
+    font-weight:bold;
+}
+
+.calificacion{
+    margin:10px 0;
+    font-size:18px;
+}
+
+/* BOTÓN */
+.btnComprar{
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btnComprar:hover{
+    background:#b71c1c;
+}
+
+/* COLORES */
+.circulos{
+    display:flex;
+    gap:10px;
+}
+
+.color{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    display:inline-block;
+    border:2px solid #ccc;
+}
+
+.negro{ background:black; }
+.rojo{ background:#d32f2f; }
+.blanco{ background:white; border:1px solid #ccc; }
+.gris{ background:gray; }
